@@ -1,1 +1,7 @@
-print('hello world')
+height = 66 # in inches
+weight = 150 # in pounds
+# constant = 703
+
+bmi = weight / (height ** 2) * 703
+
+print(round(bmi))
